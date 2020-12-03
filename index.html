@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Listas circulares</title>
+</head>
+<body>
+    <div>
+        <h1>Central de autobuses.</h1>
+    </div>
+    <div>
+        <h2>Crear base:</h2>
+        <label>Introduce el nombre de la base:</label>
+        <br>
+        <input class="input" type="text" id="nombreBase" />
+        <br>
+        <label>Introduce el tiempo de recorrido:</label>
+        <br>
+        <input class="input" type="number" id="tiempoBase" />
+        <br>
+        <input class="button" type="button" value="Crear base" id="btnAgregar">
+    </div>
+    <div>
+        <h2>Búsqueda:</h2>
+        <label>Busca una base:</label>
+        <br>
+        <input class="input" type="text" id="busquedaBase" />
+        <br>
+        <input class="button" type="button" value="Buscar base" id="btnBuscar">
+    </div>
+    <div>
+        <h2>Eliminar base:</h2>
+        <label>Ingresa el nombre de la base:</label>
+        <br>
+        <input class="input" type="text" id="deleteBase" />
+        <br>
+        <input class="button" type="button" value="Eliminar base" id="btnDelete">
+    </div>
+    <div>
+        <h3>Listar bases:</h3>
+        <input type="button" id="btnListar" value="Listar">
+        <ul id="lista1"></ul>
+    </div>
+    <div>
+        <h3>Recorrido:</h3>
+        <label>Ingresa la base:</label>
+        <br>
+        <input class="input" type="text" id="recorridoBase" />
+        <br>
+        <label>Ingresa la hora de inicio:</label>
+        <br>
+        <input class="input" type="number" id="hInicioBase" />
+        <br>
+        <label>Ingresa la hora de fin:</label>
+        <br>
+        <input class="input" type="number" id="hFinBase" />
+        <br>
+        <input class="button" type="button" value="Iniciar recorrido" id="btnRecorrido">
+    </div>
+</body>
+<script src="main.js" type="module"></script>
+</html>
